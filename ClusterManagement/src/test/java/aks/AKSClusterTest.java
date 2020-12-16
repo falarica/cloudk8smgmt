@@ -14,9 +14,9 @@ import java.io.UnsupportedEncodingException;
 
 public class AKSClusterTest {
 
-    final String tenentId = "919a8247-44d7-4dbb-bbdf-c407682551c3";
-    final String clientId = "3821e6ba-972c-4f43-a1f0-3323338de579";
-    final String secret = "Goafo_8oNAn~Eraxvc-uDzMFcOaRtQR6T_";
+    final String tenentId = ""; //need to be set
+    final String clientId = ""; //need to be set
+    final String secret = ""; //need to be set
     private String clusterId = null;
 
     public String getClusterId() {
