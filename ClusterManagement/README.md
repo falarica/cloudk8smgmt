@@ -1,6 +1,7 @@
 # cloudk8smgmt
-Kubernetes clusters in AWS (EKS) and Azure (AKS)
-Following APIs have been implemented for AWS Elastic Kubernetes Service (EKS)
+Most common APIs of AKS and EKS have been implemented in Java are as below:
+
+AWS Elastic Kubernetes Service (EKS) APIs:
  - Create cluster
  - Get cluster status
  - List cluster
@@ -20,7 +21,7 @@ Following APIs have been implemented for AWS Elastic Kubernetes Service (EKS)
  - List subnet from VPC
  - List kubernentes version
  
-Following APIs have been implemented for Azure Azure Kubernetes Service (AKS)
+Azure Azure Kubernetes Service (AKS) APIs:
  - Create cluster
  - List cluster
  - Get cluster by id
@@ -37,5 +38,11 @@ Following APIs have been implemented for Azure Azure Kubernetes Service (AKS)
  - List subscriptions
 
 
+How to run:
+ - git clone https://github.com/falarica/cloudk8smgmt.git
+ - To run AKS tests:
+    - Go to AKSClusterTest.java and set tenentId,clientId and secret and run test method
+ - To run EKS tests:
+    - Go to EKSClusterTest.java and set accessKey,secretKey and run test method
 
  
