@@ -40,6 +40,7 @@ Azure Azure Kubernetes Service (AKS) APIs:
 
 How to run:
  - git clone https://github.com/falarica/cloudk8smgmt.git
+ - cd to 'ClusterManagement' and run 'mvn clean install' to download required jars
  - To run AKS tests:
     - Go to AKSClusterTest.java and set tenentId,clientId and secret and run test method
  - To run EKS tests:
