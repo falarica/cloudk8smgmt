@@ -498,7 +498,7 @@ public class EKSCluster {
     }
 
     public static void main(String []arg){
-        EKSCluster eksCluster = new EKSCluster("AKIAY2W2Z6NBK5WKGDWF","Uqa1IK3GbvvpWIVuI/Zn5mWO7uNkXGkt0zZOqFqp","us-east-2");
+        EKSCluster eksCluster = new EKSCluster("","","us-east-2");
         GetRegionsResult getRegionsResult = eksCluster.getRegions();
         System.out.println(getRegionsResult);
     }
